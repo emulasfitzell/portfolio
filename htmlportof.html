@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="cssportof.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('about')">À propos</a></li>
+            <li><a href="#" onclick="showSection('projects')">Projets</a></li>
+            <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="content-section">
+        <h2>À propos</h2>
+        <img src="toi.jpg" alt="Ma Photo" class="profile-photo">
+        <p>Je m'appel KPONOMAIZOUN Ahlin Samuel. Je suis etudiant à DEFITECH en option Genie Logiciel. Depuis 2022 j'ai commencer à apprendre les langages de programmation comme le C, C++, Java, et autres, je n'est pas d'experience palpable sous la main,mais je m'entraine en developpement web a concevoir de petits projets comme ceux dont vous pouvez voir dans la section PROJET. J'aimes apprendre de nouvelle technologies et developper mon savoir faire. Je serais très heureux de participer à des realisations de projets et connaitre plusieurs personnes dans mon domaine.
+        </p>
+    </section>
+    <section id="projects" class="content-section" style="display: none;">
+        <h2>Projets</h2>
+<div class="project">
+            <img src="calculatrice.png" alt="Projet 1" >
+            <div class="project-details">
+                <h3>Projet 1: Calculatrice</h3>
+                <p>Creation d'une petite calculatrice avec HTML,CSS et JavaScript </p>
+                <p><a href="htmlcalcu.html" >voir le projet</a></p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="one.png" alt="Projet 2">
+            <div class="project-details">
+                <h3>Projet 2: To-Do List</h3>
+                <p>Une application de liste de tâches interactive utilisant HTML, CSS, et JavaScript.</p>
+                <p><a href="htmlliste.html" >voir le projet</a></p>
+            </div>
+            <div class="project">
+                <img src="trhee.png" alt="Projet 2">
+                <div class="project-details">
+                    <h3>Projet 3: Convertisseur de temperature</h3>
+                    <p>Ce petit projet realiser en HTML,css, et JavaScript permet de convertir la temperature du celsius en farheint.</p>
+                    <p><a href="htmltemp.html" >voir le projet</a></p>
+                </div>
+                <div class="project">
+                    <img src="two.png" alt="Projet 2">
+                    <div class="project-details">
+                        <h3>Projet 4: Jeu de devinette</h3>
+                        <p>Devinez le nombre exact. realiser par HTML, CSS, et JavaScript.</p>
+                        <p><a href="htmljeu.html" >voir le projet</a></p>
+                    </div>
+            
+        </div>
+    </section>
+    <section id="contact" class="content-section" style="display: none;">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xrbzpqok" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mon Portfolio</p>
+    </footer>
+    <script src="jsportof.js"></script>
+</body>
+</html>
