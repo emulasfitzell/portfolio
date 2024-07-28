@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#converter {
+    margin-top: 20px;
+}
+
+#converter input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#converter button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#converter button:hover {
+    background: #555;
+}

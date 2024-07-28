@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Deviner le Nombre</title>
+    <link rel="stylesheet" href="cssjeu.css">
+    <script defer src="jsjeuu.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Jeu de Deviner le Nombre</h1>
+    </header>
+    <section id="game">
+        <p>Devinez un nombre entre 1 et 100:</p>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Vérifier</button>
+        <p id="message"></p>
+    </section>
+</body>
+</html>
